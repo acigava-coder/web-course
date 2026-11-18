@@ -273,7 +273,7 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
   flex: none; width: var(--w);
   font-size: 30px; font-weight: 600; line-height: 36px; letter-spacing: -0.69px;
   color: var(--text);
-  padding-bottom: 1px;
+  margin: -1px 0 1px;
 }
 .feature__text {
   flex: 1;
@@ -317,7 +317,7 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
 .theme-workflows .card--inverted{ --inv: #89d4c7; }
 
 .shot {
-  object-fit: cover;
+  object-fit: fill;
   border: 1px solid var(--border-img);
   border-radius: 10px;
   box-shadow: var(--shadow-img);
@@ -463,10 +463,10 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
   font-size: 16.7px; font-weight: 600; line-height: 24.5px;
   color: var(--text);
 }
-.use__img { width: 100%; height: auto; object-fit: cover; }
+.use__img { width: 100%; height: auto; object-fit: fill; }
 
 .use--1 { height: 367.97px; }
-.use--1 .use__text { padding: 0; }
+.use--1 .use__eyebrow, .use--1 .use__desc { padding: 0; }
 .use--1 .use__desc { margin-top: 8px; }
 .use--1 .use__img { margin-top: 32px; height: 128.97px; }
 .use--2 { height: 420.27px; }
@@ -491,7 +491,7 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
   color: var(--text);
 }
 .cta__text {
-  margin: 24px auto 0;
+  margin: 25px auto 0;
   font-size: 21px; line-height: 28px; letter-spacing: -0.37px; color: var(--text-2);
 }
 .cta__actions {
