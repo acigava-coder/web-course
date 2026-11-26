@@ -31,6 +31,10 @@ web-course/
 ├── README.md
 ├── index.html
 ├── css/
-│   └── style.css
-└── images/
+│   ├── style.css    — layout and styles from the Figma mockup
+│   ├── lines.css    — per-line text render compensation (pixel-perfect)
+│   ├── words.css    — per-word text render compensation (pixel-perfect)
+│   └── images.css   — sub-pixel placement of images/icons (pixel-perfect)
+├── images/          — images exported from Figma
+└── icons/           — icons exported from Figma
 ```

@@ -1,0 +1,18 @@
+/* Sub-pixel placement of images/icons as Figma renders them (fractional positions), measured against the Figma 1x export. */
+
+[data-i="0"] { translate: 0.00px -0.45px; }
+[data-i="2"] { translate: 0.00px 0.23px; }
+[data-i="3"] { translate: 0.00px -0.45px; }
+[data-i="8"] { translate: -0.23px 0.00px; }
+[data-i="10"] { translate: -0.45px -0.23px; }
+[data-i="11"] { translate: 0.45px 0.00px; }
+[data-i="15"] { translate: 0.45px 0.23px; }
+[data-i="16"] { translate: -0.45px 0.45px; }
+[data-i="18"] { translate: 0.23px 0.00px; }
+[data-i="19"] { translate: -0.23px -0.23px; }
+[data-i="22"] { translate: 0.00px 0.23px; }
+[data-i="23"] { translate: 0.23px 0.23px; }
+[data-i="24"] { translate: 0.23px 0.00px; }
+[data-i="25"] { translate: 0.00px 0.45px; }
+[data-i="27"] { translate: 0.00px 0.68px; }
+[data-i="34"] { translate: 0.00px 0.68px; }

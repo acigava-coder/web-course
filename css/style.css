@@ -1,0 +1,813 @@
+/* Linear Asks — static visual copy of Figma frame "linear.app" (1440 x 8125.23).
+   All coordinates are taken from the Figma layer geometry. No interactivity. */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  background: #161618;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-synthesis: none;
+  text-rendering: geometricPrecision;
+}
+
+img {
+  display: block;
+}
+
+h2,
+h3,
+p,
+span {
+  font-weight: inherit;
+  white-space: nowrap;
+}
+
+.page {
+  position: relative;
+  /* own compositing layer -> Chrome uses grayscale text antialiasing, like Figma's renderer */
+  will-change: transform;
+  width: 1440px;
+  height: 8125.23px;
+  margin: 0 auto;
+  background: #161618;
+}
+
+/* Figma's 1x frame export sits 0.5px higher than Chrome's layout */
+.page > * {
+  margin-top: -0.5px;
+}
+
+.page > *,
+.header > *,
+.footer > *,
+.sec > *,
+.card > *,
+.grid > *,
+.cta > *,
+.quote > *,
+.quote-inner > *,
+.f-col > *,
+.badge > *,
+.cta-btn > *,
+.h-signup > *,
+.article > *,
+.article-btn > *,
+.asks-icon > *,
+.ill-clip > * {
+  position: absolute;
+}
+
+/* ---------- Asks icon (1:8 / 1:282) ---------- */
+.asks-icon {
+  width: 212px;
+  height: 212px;
+}
+
+.asks-icon--hero {
+  left: 614px;
+  top: 128px;
+}
+
+.asks-icon--cta {
+  left: 494px;
+  top: 48px;
+}
+
+.asks-glow-before {
+  left: -381.59px;
+  top: -254.39px;
+  width: 975.19px;
+  height: 720.78px;
+  opacity: 0.15;
+  background-size: 100% 100%;
+  background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 975.19 720.78' xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none'><rect x='0' y='0' height='100%' width='100%' fill='url(%23grad)' opacity='1'/><defs><radialGradient id='grad' gradientUnits='userSpaceOnUse' cx='0' cy='0' r='10' gradientTransform='matrix(68.956 0 0 50.967 487.6 360.39)'><stop stop-color='rgba(94,106,210,1)' offset='0'/><stop stop-color='rgba(50,106,210,0.6)' offset='0.15'/><stop stop-color='rgba(5,106,210,0.2)' offset='0.3'/><stop stop-color='rgba(3,53,105,0.1)' offset='0.4'/><stop stop-color='rgba(0,0,0,0)' offset='0.5'/></radialGradient></defs></svg>");
+}
+
+.asks-glow-after {
+  left: -593.59px;
+  top: -593.59px;
+  width: 1399.19px;
+  height: 1399.19px;
+  opacity: 0.1;
+  background-size: 100% 100%;
+  background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 1399.2 1399.2' xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none'><rect x='0' y='0' height='100%' width='100%' fill='url(%23grad)' opacity='1'/><defs><radialGradient id='grad' gradientUnits='userSpaceOnUse' cx='0' cy='0' r='10' gradientTransform='matrix(98.938 0 0 98.938 699.59 699.59)'><stop stop-color='rgba(252,120,64,1)' offset='0'/><stop stop-color='rgba(252,120,64,0.2)' offset='0.3'/><stop stop-color='rgba(126,60,32,0.1)' offset='0.4'/><stop stop-color='rgba(0,0,0,0)' offset='0.5'/></radialGradient></defs></svg>");
+}
+
+.asks-svg {
+  left: 16px;
+  top: 16px;
+  width: 180px;
+  height: 180px;
+}
+
+/* ---------- Intro (1:39) ---------- */
+.intro-label {
+  left: 222px;
+  top: 404px;
+  width: 996px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 2.8px;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.intro-label span {
+  background-image: linear-gradient(180deg, #ff9466 0%, #ff4d00 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.intro-sub {
+  left: 381.539px;
+  top: 592px;
+  width: 701px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 28px;
+  letter-spacing: -0.37px;
+  color: #d0d6e0;
+}
+
+/* ---------- Intro 2 (1:47) ---------- */
+.slack-title {
+  left: 468.595px;
+  top: 1571px;
+  width: 503px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 43.875px;
+  line-height: 52px;
+  letter-spacing: -1.07px;
+  color: #f7f8f8;
+}
+
+.slack-sub {
+  left: 457.156px;
+  top: 1692px;
+  width: 531px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24.5px;
+  color: #d0d6e0;
+}
+
+/* ---------- How teams use (1:54) ---------- */
+.teams-title {
+  left: 440.1px;
+  top: 5733.19px;
+  width: 560px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 44.063px;
+  line-height: 52px;
+  letter-spacing: -1.07px;
+  color: #f7f8f8;
+}
+
+.teams-sub {
+  left: 508.075px;
+  top: 5801.19px;
+  width: 429px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24.5px;
+  color: #d0d6e0;
+}
+
+/* ---------- Article (1:61) ---------- */
+.article {
+  left: 120px;
+  top: 769px;
+  width: 1200px;
+  height: 675px;
+  border-radius: 32px;
+  overflow: hidden;
+  background: #161618 url(../images/hero-article.png) 0 0 / 100% 100% no-repeat;
+  box-shadow:
+    0 23px 51px 0 rgba(0, 0, 0, 0.2),
+    0 93px 93px 0 rgba(0, 0, 0, 0.17),
+    0 209px 126px 0 rgba(0, 0, 0, 0.1),
+    0 372px 149px 0 rgba(0, 0, 0, 0.03);
+}
+
+.article-btn {
+  left: 506.95px;
+  top: 317.5px;
+  width: 186px;
+  height: 40px;
+  border-radius: 9999px;
+  background: #f7f8f8;
+}
+
+.article-btn-icon {
+  left: 24px;
+  top: 12.27px;
+  width: 16px;
+  height: 16px;
+}
+
+.article-btn-text {
+  left: 48px;
+  top: 7.77px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24.48px;
+  color: #161618;
+}
+
+/* ---------- Feature sections (1:68, 1:121, 1:173) ---------- */
+.sec {
+  left: 120px;
+  width: 1200px;
+}
+
+.sec-slack {
+  top: 1893.5px;
+  height: 1012.66px;
+}
+
+.sec-linear {
+  top: 3034.16px;
+  height: 1048.2px;
+}
+
+.sec-workflows {
+  top: 4712.83px;
+  height: 892.36px;
+}
+
+.sec-icon {
+  left: 102px;
+  top: 1.5px;
+  width: 16px;
+  height: 16px;
+}
+
+.sec-label {
+  left: 126px;
+  top: 0;
+  font-weight: 600;
+  font-size: 12.797px;
+  line-height: 19px;
+  letter-spacing: -0.12px;
+}
+
+.sec-label--slack {
+  color: #99bcfe;
+}
+
+.sec-label--linear {
+  font-size: 13px;
+  color: #828fff;
+}
+
+.sec-label--workflows {
+  color: #8a8f98;
+}
+
+.sec-line {
+  left: 102px;
+  top: 29px;
+  width: 996px;
+  height: 2px;
+  border-radius: 9999px;
+  background: #2e2e32;
+}
+
+.sec-h1 {
+  left: 102px;
+  top: 70px;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: -0.69px;
+  color: #f7f8f8;
+}
+
+.sec-linear-h1 {
+  font-size: 29.5px;
+}
+
+.sec-workflows-h1 {
+  font-size: 29.75px;
+}
+
+
+.sec-h2 {
+  top: 94px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24.5px;
+  color: #d0d6e0;
+}
+
+.sec-slack-h2 {
+  left: 545.78px;
+}
+
+.sec-linear-h2 {
+  left: 623.52px;
+}
+
+.sec-workflows-h2 {
+  left: 489.02px;
+}
+
+/* ---------- Cards ---------- */
+.card {
+  border-radius: 24px;
+  overflow: hidden;
+}
+
+.card-dark {
+  background-image:
+    linear-gradient(180deg, rgba(35, 35, 38, 0.4) 0%, rgba(46, 46, 52, 0.4) 100%),
+    linear-gradient(180deg, rgba(35, 35, 38, 0.3) 0%, rgba(46, 46, 52, 0.3) 100%);
+}
+
+.card-templates {
+  left: 0;
+  top: 215px;
+  width: 690px;
+  height: 412px;
+  background-image: linear-gradient(30.84148659494624deg, rgb(49, 58, 96) 0%, rgb(78, 92, 110) 100%);
+}
+
+.card-private-asks {
+  left: 714px;
+  top: 215px;
+  width: 486px;
+  height: 412px;
+}
+
+.card-automation {
+  left: 0;
+  top: 651px;
+  width: 588px;
+  height: 349.77px;
+}
+
+.card-instant {
+  left: 612px;
+  top: 651px;
+  width: 588px;
+  height: 361.66px;
+}
+
+.card-thread {
+  left: 0;
+  top: 215px;
+  width: 486px;
+  height: 441.42px;
+}
+
+.card-triage {
+  left: 510px;
+  top: 215px;
+  width: 690px;
+  height: 442.83px;
+  background-image: linear-gradient(32.69164104911213deg, rgb(50, 52, 106) 0%, rgb(78, 79, 117) 100%);
+}
+
+.card-speed {
+  left: 0;
+  top: 681.82px;
+  width: 588px;
+  height: 366.38px;
+}
+
+.card-private-teams {
+  left: 612px;
+  top: 681.82px;
+  width: 588px;
+  height: 366.38px;
+}
+
+.card-insights {
+  left: 0;
+  top: 215px;
+  width: 690px;
+  height: 486.36px;
+  background-image: linear-gradient(215.17884335918876deg, rgb(79, 93, 95) 40%, rgb(51, 62, 88) 100%);
+}
+
+.card-triage-resp {
+  left: 714px;
+  top: 215px;
+  width: 486px;
+  height: 457.19px;
+}
+
+.card-deadlines {
+  left: 0;
+  top: 725.36px;
+  width: 1200px;
+  height: 167px;
+}
+
+.c-label {
+  font-weight: 600;
+  font-size: 14.883px;
+  line-height: 23px;
+  letter-spacing: -0.16px;
+}
+
+.c-body {
+  font-weight: 600;
+  font-size: 20.508px;
+  line-height: 28px;
+  letter-spacing: -0.37px;
+}
+
+.fs-15 {
+  font-size: 15px;
+}
+
+.fs-20344 {
+  font-size: 20.344px;
+}
+
+.c-white {
+  color: #f7f8f8;
+}
+
+.c-blue {
+  color: #99bcfe;
+}
+
+.c-violet {
+  color: #828fff;
+}
+
+.c-teal {
+  color: #89d4c7;
+}
+
+.c-gray {
+  color: #8a8f98;
+}
+
+/* screenshots inside cards */
+.shot {
+  border: 1px solid #3e3e44;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  background-position: 0 0;
+  background-size: 100% 100%;
+  box-shadow:
+    0 18.039px 40px 0 rgba(0, 0, 0, 0.2),
+    0 72.941px 72.941px 0 rgba(0, 0, 0, 0.17),
+    0 163.922px 98.824px 0 rgba(0, 0, 0, 0.1),
+    0 291.765px 116.863px 0 rgba(0, 0, 0, 0.03);
+}
+
+.shot--plain {
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+/* illustrations (exported Figma vectors) */
+.ill-clip {
+  overflow: hidden;
+}
+
+.ill {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+/* badges */
+.badge {
+  height: 20px;
+  border: 1px solid #5e6ad2;
+  border-radius: 4px;
+  background: #5e6ad2;
+}
+
+.badge span {
+  font-weight: 600;
+  line-height: normal;
+}
+
+.badge-upgraded {
+  left: 483.03px;
+  top: 87.17px;
+  width: 67px;
+}
+
+.badge-upgraded span {
+  left: 4px;
+  top: 2.5px;
+  font-size: 11.813px;
+  color: #f7f8f8;
+}
+
+.badge-new {
+  left: 191.17px;
+  top: 331.69px;
+  width: 35.86px;
+}
+
+.badge-new span {
+  left: 4px;
+  top: 1.5px;
+  font-size: 12px;
+  color: #8a8f98;
+}
+
+/* ---------- Use cases grid (1:234) ---------- */
+.grid {
+  left: 120px;
+  top: 5922.19px;
+  width: 1200px;
+  height: 839.77px;
+}
+
+.uc-label {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.18px;
+  color: #8a8f98;
+}
+
+.uc-body {
+  font-weight: 600;
+  font-size: 16.734px;
+  line-height: 24.5px;
+  color: #f7f8f8;
+}
+
+/* 🎫 is text in Figma; the system emoji font is wider than the one Figma
+   renders with, so its advance is corrected to keep the following word in place. */
+.emoji {
+  margin-left: -2px;
+  margin-right: -3px;
+}
+
+/* ---------- CTA (1:275) ---------- */
+.cta {
+  left: 120px;
+  top: 6905.95px;
+  width: 1200px;
+  height: 669px;
+}
+
+.cta-title {
+  left: 423.59px;
+  top: 371px;
+  width: 353px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 37.344px;
+  line-height: 44px;
+  letter-spacing: -0.89px;
+  color: #f7f8f8;
+}
+
+.cta-sub {
+  left: 363.65px;
+  top: 484px;
+  width: 490px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 28px;
+  letter-spacing: -0.37px;
+  color: #d0d6e0;
+}
+
+.cta-btn {
+  top: 588px;
+  height: 48px;
+  border-radius: 9999px;
+}
+
+.cta-btn span {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24.48px;
+}
+
+.cta-btn--primary {
+  left: 432.14px;
+  width: 171.14px;
+  background: #5e6ad2;
+}
+
+.cta-btn--primary span {
+  left: 23.07px;
+  top: 11.77px;
+  color: #ffffff;
+  text-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
+}
+
+.cta-btn--secondary {
+  left: 619.28px;
+  width: 148.58px;
+  background: #161618;
+  border: 1px solid #2e2e32;
+}
+
+.cta-btn--secondary span {
+  left: 24px;
+  top: 10.77px;
+  color: #f7f8f8;
+}
+
+.cta-note {
+  left: 441.21px;
+  top: 652.75px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  color: #8a8f98;
+}
+
+/* ---------- Quote (1:318) ---------- */
+.quote {
+  left: 265px;
+  top: 4186.36px;
+  width: 910px;
+  height: 382.47px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 48px;
+  box-shadow:
+    0 23px 51px 0 rgba(0, 0, 0, 0.2),
+    0 93px 93px 0 rgba(0, 0, 0, 0.17),
+    0 209px 126px 0 rgba(0, 0, 0, 0.1),
+    0 372px 149px 0 rgba(0, 0, 0, 0.03);
+}
+
+.quote-inner {
+  left: 0;
+  top: 0;
+  width: 908px;
+  height: 380.47px;
+  background: #161618;
+}
+
+.quote-img {
+  left: 0;
+  top: 0;
+  width: 308px;
+  height: 380.47px;
+  background: url(../images/quote-juni.png) 0 0 / 100% 100% no-repeat;
+  /* mask exported from Figma (images/quote-mask.svg): opaque to 50%, transparent at 100% */
+  -webkit-mask-image: linear-gradient(90deg, #000 50%, rgba(0, 0, 0, 0) 100%);
+  mask-image: linear-gradient(90deg, #000 50%, rgba(0, 0, 0, 0) 100%);
+}
+
+.quote-text {
+  left: 363.19px;
+  top: 134.23px;
+  font-weight: 600;
+  font-size: 22.688px;
+  line-height: 28px;
+  letter-spacing: -0.47px;
+  color: #f7f8f8;
+}
+
+.quote-dim {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* ---------- Footer (1:327) ---------- */
+.footer {
+  left: 0;
+  top: 7718.95px;
+  width: 1440px;
+  height: 406.28px;
+  background: #161618;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  -webkit-backdrop-filter: blur(2.5px);
+  backdrop-filter: blur(2.5px);
+}
+
+.f-logo {
+  left: 120px;
+  top: 56px;
+  width: 18px;
+  height: 18px;
+}
+
+.f-brand {
+  left: 146px;
+  top: 56px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #8a8f98;
+}
+
+.f-col {
+  top: 56px;
+  width: 180px;
+  height: 294px;
+}
+
+.f-head {
+  left: 0;
+  top: 0;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #d0d6e0;
+}
+
+.f-item {
+  left: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24.48px;
+  color: #8a8f98;
+}
+
+.f-item--active {
+  font-weight: 600;
+  font-size: 13.781px;
+  color: #f7f8f8;
+}
+
+/* ---------- Header (1:390) ---------- */
+.header {
+  left: 0;
+  top: 0;
+  width: 1440px;
+  height: 48px;
+  background: #161618;
+  border-bottom: 1px solid #2e2e32;
+}
+
+/* Figma 1x export snaps the header 0.5px higher than Chrome places it */
+.h-logo,
+.h-link,
+.h-chev,
+.h-signup {
+  margin-top: -0.5px;
+}
+
+.h-logo {
+  left: 120px;
+  top: 15px;
+  width: 72px;
+  height: 18px;
+}
+
+.h-link {
+  top: 11.77px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24.48px;
+  color: #f7f8f8;
+}
+
+.h-btn {
+  top: 12.03px;
+  text-align: center;
+}
+
+.h-chev {
+  top: 22.55px;
+  width: 8.29013px;
+  height: 4.79603px;
+}
+
+.h-signup {
+  left: 1237.83px;
+  top: 8px;
+  width: 82.17px;
+  height: 32px;
+  border-radius: 9999px;
+  background: #5e6ad2;
+}
+
+.h-signup span {
+  left: 15.585px;
+  top: 3.77px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24.48px;
+  color: #ffffff;
+  text-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
+}
