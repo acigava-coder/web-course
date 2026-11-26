@@ -5,7 +5,7 @@ Repository of laboratory works for the course "Web Programming".
 **Author:** Sukhodolskyi Oleksandr, group KII-61(b)  
 **Project topic:** a landing page for the Linear Asks product (Linear)  
 **Published site:** https://acigava-coder.github.io/web-course/  
-**Design mockup:** [Linear Asks](https://www.figma.com/design/VTzWau2Y89pY3nkG9v0NpK/web-course---template--Copy-?node-id=0-1&p=f&t=iJeLjZi03ejmFfQn-0) (Figma)
+**Design mockup:** [Linear Asks — 1](https://www.figma.com/design/3qImjM40lkNin8OjLMUVgl/20--Free-Fully-Editable-Websites--Community-?node-id=1-2&t=7Fzq5B9iCmY49KJe-0) (Figma)
 
 ## List of laboratory works
 
